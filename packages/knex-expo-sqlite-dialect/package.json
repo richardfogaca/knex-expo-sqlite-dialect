@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Knex.js dialect for Expo SQLite",
   "main": "index.js",
+  "type": "module",
   "types": "types.d.ts",
   "sideEffects": false,
   "repository": {
