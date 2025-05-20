@@ -1,4 +1,4 @@
-import ClientSQLite3 from 'knex/lib/dialects/sqlite3';
+const ClientSQLite3 = require('knex/lib/dialects/sqlite3');
 
 class ClientExpoSQLite extends ClientSQLite3 {
   _driver() {
@@ -55,4 +55,4 @@ Object.assign(ClientExpoSQLite.prototype, {
   driverName: 'expo-sqlite',
 });
 
-export default ClientExpoSQLite;
+module.exports = ClientExpoSQLite;

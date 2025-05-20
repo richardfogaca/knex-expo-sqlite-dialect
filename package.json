@@ -19,7 +19,7 @@
   "files": [
     "index.d.ts",
     "index.js",
-    "babel-preset.js",
+    "babel-preset",
     "enhanced-timers.js",
     "README.md",
     "types.d.ts"
